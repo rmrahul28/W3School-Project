@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .tab{
+    display: grid;
+    border: 1px solid;
+    background-color: #eee;
+    width: 30vw;
+  }
+  .tab > .tablink{
+    transition: 0.5s;
+    padding: 1vw;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  .tab > .tablink:hover{
+    background-color: #ccc;
+  }
+  .tabBody{
+    border: 1px solid;
+    padding: 1vw;
+    display: flex;
+  }
+  .tabContent{
+  padding: 2vw;;
+  display: none;
+    overflow: hidden;
+    transition: 0.5s;
+  }
