@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .tab {
+    display: flex;
+    /* justify-content: space-around; */
+    /* border: 1px solid; */
+    background-color: #fff;
+  }
+  .tab > .tablink {
+    transition: 0.5s;
+    padding: 1vw;
+    cursor: pointer;
+    font-size: 25px;
+    width: 25%;
+    background-color: #fff;
+  }
+  .tab > .tablink:hover {
+    background-color: #eee;
+  }
+  .tabBody {
+    border: 1px solid;
+    /* padding: 1vw; */
+    /* display: grid; */
+    text-align: center;
+  }
+  .tabContent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+    transition: 0.5s;
+  }
+  #london {
+    background-color: #f44336;
+  }
+  #paris {
+    background-color: #04aa6d;
+  }
+  #tokyo {
+    background-color: #2196f3;
+  }
+  #oslo {
+    background-color: #ff5722;
+  }
+  
