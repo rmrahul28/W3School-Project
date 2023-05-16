@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+  }
+  body > div {
+    padding: 1vw;
+  }
+  .menuSection {
+    background-color: #bbbbbb;
+  }
+  .menus {
+    display: flex;
+    flex-direction: column;
+  }
+  #searchBar {
+    padding: 1vw;
+    border: none;
+    margin-bottom: 1vh;
+    width: 28vw;
+  }
+  .menus a {
+    padding: 1vw;
+    text-decoration: none;
+    color: #000;
+  }
+  .menuSection a:hover {
+    background-color: #eee;
+  }
+  .pageSection {
+    background-color: #dddddd;
+  }
+  
