@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .tab{
+    display: flex;
+    border: 1px solid;
+    background-color: #eee;
+  }
+  .tab > .tablink{
+    transition: 0.5s;
+    padding: 1vw;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  .tab > .tablink:hover{
+    background-color: #ccc;
+  }
+  .tabBody{
+    /* border: 1px solid; */
+    padding: 1vw;
+  }
+  .tabContent{
+  /* padding: 2vw;; */
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+  }
