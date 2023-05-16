@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  .cont {
+    width: 100px;
+    height: 100px;
+    /* border: 1px solid; */
+  }
+  .cont > div {
+    height: 10%;
+    background-color: #000;
+    margin-bottom: 25px;
+    transition: 0.3s;
+  }
+  .cont:hover #first {
+    transform: rotate(45deg);
+    margin-top: 40px;
+  }
+  .cont:hover #third {
+    transform: rotate(-45deg);
+    margin-top: -35px;
+  }
+  .cont:hover #second {
+    display: none;
+  }
