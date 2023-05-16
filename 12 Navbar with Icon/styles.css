@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+  }
+  .topnav {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  .topnav a {
+    /* border: 1px solid; */
+    float: left;
+    text-decoration: none;
+    padding: 2vw;
+    font-size: 3.5vw;
+    text-align: center;
+    color: white;
+  }
+  .topnav .active {
+    background-color: #04aa6d;
+  }
+  .topnav a:hover {
+    background-color: #000000;
+  }
+  @media screen and (max-width: 500px) {
+    .topnav a {
+      float: none;
+      display: block;
+    }
+  }
+  
