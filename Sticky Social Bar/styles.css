@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    display: flex;
+}
+.socialbar{
+    /* border: 1px solid; */
+    width: 50px;
+    /* height: 50vh; */
+    position: fixed;
+    top: 200px;
+    left: 0;
+    overflow: hidden;
+}
+.socialbar i{
+    /* padding: 10px; */
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.socialbar i:hover{
+    background-color: #000;
+}
+.content{
+/* border: 1px solid red; */
+height: 200vh;
+width: auto;
+margin-left: 50px;
+padding: 10px;
+}
+
+.socialbar :nth-child(1){
+    background-color: #3b5998;
+}
+.socialbar :nth-child(2){
+    background-color: #d16d0f;
+}
+.socialbar :nth-child(3){
+    background-color: #bb0000;
+}
+.socialbar :nth-child(4){
+    background-color: #55acee;
+}
+.socialbar :nth-child(5){
+    background-color: #dd4b39;
+}
