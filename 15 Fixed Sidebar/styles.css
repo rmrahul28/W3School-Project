@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+  }
+  .links {
+    border: 1px solid;
+    padding: 2vw;
+    position: fixed;
+    width: 20vw;
+    height: 100%;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  .links a {
+    font-size: 3vw;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #bbbbbb;
+  }
+  .links a:hover {
+    color: white;
+    /* background-color: #333; */
+  }
+  .content {
+    margin-left: 25vw;
+  }
+  
