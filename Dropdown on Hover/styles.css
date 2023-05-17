@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+  }
+  #onHover {
+    color: white;
+    background-color: red;
+    padding: 10px;
+    /* width: 21vw; */
+    /* border: 1px solid black; */
+    display: block;
+  }
+  
+  #menu a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    /* border: 1px solid; */
+  }
+  #menu a:hover {
+    background-color: #eee;
+  }
+  #main {
+    width: 25vw;
+    height: 38px;
+    /* border: 1px solid; */
+    overflow: hidden;
+  }
+  
