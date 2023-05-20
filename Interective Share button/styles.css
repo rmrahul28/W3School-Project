@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
+    margin: auto;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #F7D705;
+}
+.container a{
+    /* border: 1px solid red; */
+    text-decoration: none;
+    color: black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transition: 0.5s;
+    cursor: pointer;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.container a:hover{
+    color: #fff;
+}
+.container a i{
+    font-size: 20px;
+}
+#insta{
+    background-color: #c535a0;
+}
+#facebook{
+    background-color: #0779e9;
+}
+#snap{
+    background-color: #f7f400;
+}
+#twitter{
+    background-color: #1da1f2;
+}
+#close{
+    background-color: #FC5832;
+}
+#share{
+    background-color: #0AF6E3;
+}
