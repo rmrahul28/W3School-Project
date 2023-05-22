@@ -1,0 +1,33 @@
+.tabs{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.tabs img{
+    width: 200px;
+    cursor: pointer;
+}
+.bigimg{
+    display: none;
+    width: 60vw;
+    margin: auto;
+    position: relative;
+}
+.bigimg #icon{
+    font-size: 45px;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: white;
+}
+.bigimg #span{
+    font-size: 35px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+}
+#mainimg{
+    width: 100%;
+}
