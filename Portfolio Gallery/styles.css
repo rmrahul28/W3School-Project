@@ -1,0 +1,36 @@
+body{
+    font-family: sans-serif;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+*{
+ box-sizing: border-box;
+}
+.album{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.card{
+    background-color: #fff;
+    /* border:1px solid; */
+    padding: 10px;
+}
+.card img{
+    width: 100%;
+}
+.content{
+    margin-top: 10px;
+}
+
+@media screen and (max-width:900px) {
+    .album{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width:600px) {
+    .album{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
