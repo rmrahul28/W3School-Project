@@ -1,0 +1,56 @@
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    padding: 20px;
+    background-color: #eee;
+}
+.header h2{
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.header p{
+    margin-bottom: 15px;
+}
+.tabs{
+    margin-bottom: 20px;
+}
+.tabs .btn{
+    padding: 10px 15px;
+    background-color: #fff;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+.container .tabs .active{
+    background-color: #555;
+    color: white;
+}
+.btn:hover{
+    background-color: #ccc;
+}
+.album{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.album .card{
+    padding: 10px;
+    background-color: #fff;
+}
+.card img{
+    width: 100%;
+}
+@media screen and (max-Width:800px) {
+    .album{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+@media screen and (max-Width:500px) {
+    .album{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+}
