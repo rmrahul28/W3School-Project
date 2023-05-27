@@ -1,0 +1,57 @@
+body{
+    font-family: sans-serif;
+}
+.sidenav{
+    border: 1px solid;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    padding-top: 10px;
+    overflow-x: hidden;
+    background-color: #111;
+}
+.sidenav a, .dropbtn{
+    display: block;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    background: none;
+    cursor: pointer;
+    text-align: left;
+    border:none; 
+    outline: none;
+    color: #818181;
+    width: 100%;
+}
+.active {
+    background-color: green;
+    color: white;
+  }
+.sidenav a:hover, .dropbtn:hover {
+    color: #f1f1f1;
+  }
+  .main{
+    margin-left: 200px;
+    padding-left: 10px;
+  }
+  .drop_container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+  }
+  #down {
+    float: right;
+    padding-right: 8px;
+  }
+  #up {
+    float: right;
+    padding-right: 8px;
+    display: none;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
